@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ru.LNB.2.JSP.pavel.javaguru:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ru_LNB_2_JSP_pavel_javaguru_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ru.LNB.2.JSP.pavel.javaguru/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ru.LNB.2.JSP.pavel.javaguru" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/jars/EmbedPDF.jar" />
+          <element id="library" level="project" name="javax.faces-api-2.0" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/icepdf-core.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/icepdf-viewer.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
